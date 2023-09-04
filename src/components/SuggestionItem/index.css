@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.search-item {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.search-text {
+  color: #475569;
+}
+.arrow-icon {
+  height: 20px;
+}
