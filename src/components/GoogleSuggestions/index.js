@@ -29,7 +29,7 @@ class GoogleSuggestions extends Component {
           </div>
           <ul className="list-container">
             {suggestionsList.map(each => ({
-                <SuggestionItem key={each.id} search={each} />
+              <SuggestionItem key={each.id} search={each} />
             }))}
           </ul>
         </div>
